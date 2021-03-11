@@ -11,6 +11,7 @@
 
 }
 
+
 p{
   font-size: 0.68vw;
 }
@@ -577,69 +578,3 @@ color: grey;
 
 
 
-@media(max-width:480px){
-
-  h3{
-    font-size: 5.6vw;
-  }
-  h5,p,h4
-  {
-    font-size: 2vw;
-  }
-  .body-container{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .navbar{
-    display: none;
-  }
-  .home {
-    margin: 0%;
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    border-radius: 35px;
-    /* left: 0; */
-    align-items: baseline;
-    background-color: white;
-    
-  }
-  .home .profile{
-    margin: 80px 24px 24px 24px;
-  }
-  .home .profile .profile-text h5{
-    font-size: 3vw;
-    margin-top: -5px;
-  }
-
-  .home .home-text .text-container-1 {
-    background-color: #f9f9f9;
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-      height: 30%;
-  }
-  .home .home-text .text-container-1 .text-container-1_1{
-    font-size: 2vw;
-  }
-
-  .middle {
-    
-    display: none;
-    position: fixed;
-    height: 100vh;
-    width: 100%;
-    
-  }
-  .last{
-    display: none;
-    position: fixed;
-  height: 100vh;
-  width: 100%;
-
-}
-
-
-
-}

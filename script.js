@@ -1,5 +1,20 @@
 
+const mediaQuery = window.matchMedia('(max-width: 768px)')
 
+// Check if the media query is true
+if (mediaQuery.matches) {
+    // Then trigger an alert
+    alert('Please use Destop to View Site');
+    document.body.style.display = "none";
+}
+const mediaQuery2 = window.matchMedia('(max-width: 420px)')
+
+// Check if the media query is true
+if (mediaQuery.matches) {
+    // Then trigger an alert
+    alert('Please use Destop to View Site');
+    document.body.style.display = "none";
+}
 
 window.onload = function () {
     var chart = new CanvasJS.Chart("chartContainer",
