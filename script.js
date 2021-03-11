@@ -6,6 +6,7 @@ if (mediaQuery.matches) {
     // Then trigger an alert
     alert('Please use Destop to View Site');
     document.body.style.display = "none";
+
 }
 const mediaQuery2 = window.matchMedia('(max-width: 420px)')
 
